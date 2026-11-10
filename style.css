@@ -1368,3 +1368,126 @@ body.dark-mode .calendar-view-switch button:not(.active):hover {
     background: #333333;
     color: #ffffff;
 }
+
+/* ==============================
+   COMPLETE DARK MODE FIX
+============================== */
+
+body.dark-mode {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+body.dark-mode .header {
+    background: linear-gradient(120deg, #020617, #172554);
+    color: #ffffff;
+}
+
+body.dark-mode .header p {
+    color: #cbd5e1;
+}
+
+body.dark-mode .stat-card,
+body.dark-mode .panel,
+body.dark-mode .settings-panel {
+    background: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+}
+
+body.dark-mode .panel h2,
+body.dark-mode .settings-panel h2 {
+    color: #93c5fd;
+}
+
+body.dark-mode .stat-card p,
+body.dark-mode .task-details,
+body.dark-mode .stat-description,
+body.dark-mode #progressMessage,
+body.dark-mode footer {
+    color: #cbd5e1;
+}
+
+body.dark-mode input,
+body.dark-mode select {
+    background: #0f172a;
+    color: #ffffff;
+    border-color: #475569;
+}
+
+body.dark-mode input::placeholder {
+    color: #94a3b8;
+}
+
+body.dark-mode .task-item {
+    background: #1e293b;
+    color: #ffffff;
+    border-color: #475569;
+}
+
+body.dark-mode .task-item.done {
+    background: #142d26;
+}
+
+body.dark-mode .calendar-day,
+body.dark-mode .month-day {
+    background: #1e293b;
+    color: #ffffff;
+    border-color: #475569;
+}
+
+body.dark-mode .calendar-day.today,
+body.dark-mode .month-day.today {
+    background: #172554;
+    border-color: #60a5fa;
+}
+
+body.dark-mode .calendar-weekday {
+    background: #1e40af;
+    color: #ffffff;
+}
+
+body.dark-mode .calendar-task {
+    background: #1e3a5f;
+    color: #bfdbfe;
+}
+
+body.dark-mode .calendar-task.done {
+    background: #14532d;
+    color: #bbf7d0;
+}
+
+body.dark-mode .progress-track {
+    background: #334155;
+}
+
+body.dark-mode .calendar-subtitle,
+body.dark-mode .calendar-navigation h3 {
+    color: #93c5fd;
+}
+
+body.dark-mode .calendar-view-switch button:not(.active) {
+    background: #334155;
+    color: #ffffff;
+    border-color: #475569;
+}
+
+body.dark-mode .calendar-view-switch button.active {
+    background: var(--accent-color);
+    color: #ffffff;
+}
+
+body.dark-mode .theme-toggle,
+body.dark-mode .settings-toggle {
+    background: #ffffff;
+    color: #173b70;
+}
+
+body.dark-mode .tag {
+    background: #ffffff20;
+    color: #ffffff;
+}
+
+body.dark-mode .task-item.done .task-title {
+    color: #94a3b8;
+}
