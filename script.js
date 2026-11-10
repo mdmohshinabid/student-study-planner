@@ -846,26 +846,43 @@ if (searchTask) {
 ========================================== */
 
 renderTasks();
+
 // Dark Mode Toggle
 const themeToggle = document.getElementById("themeToggle");
 
 // Load saved theme
-if (localStorage.getItem("studyTheme") === "dark") {
+const savedTheme = localStorage.getItem("studyTheme") || "light";
+
+if (savedTheme === "dark") {
     document.body.classList.add("dark-mode");
-    themeToggle.textContent = "☀️ Light Mode";
+} else {
+    document.body.classList.remove("dark-mode");
 }
 
+// Update button text
+function updateThemeButton() {
+    if (document.body.classList.contains("dark-mode")) {
+        themeToggle.textContent = "☀️ Light Mode";
+    } else {
+        themeToggle.textContent = "🌙 Dark Mode";
+    }
+}
+
+updateThemeButton();
+
+// Toggle theme
 themeToggle.addEventListener("click", function () {
     document.body.classList.toggle("dark-mode");
 
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("studyTheme", "dark");
-        themeToggle.textContent = "☀️ Light Mode";
-    } else {
-        localStorage.setItem("studyTheme", "light");
-        themeToggle.textContent = "🌙 Dark Mode";
-    }
+    const currentTheme = document.body.classList.contains("dark-mode")
+        ? "dark"
+        : "light";
+
+    localStorage.setItem("studyTheme", currentTheme);
+
+    updateThemeButton();
 });
+
 // Settings Panel Toggle
 const settingsToggle = document.getElementById("settingsToggle");
 const settingsPanel = document.getElementById("settingsPanel");
