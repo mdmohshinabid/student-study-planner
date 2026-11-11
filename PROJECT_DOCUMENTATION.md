@@ -5,8 +5,8 @@
 **Project Name:** Student Study Planner
 **Developer:** Md Mohshin Abid
 **Project Type:** Front-End Web Development
-**Live Website:** [https://mdabidchy.github.io/student-study-planner/](https://mdabidchy.github.io/student-study-planner/)
-**GitHub Repository:** [https://github.com/mdabidchy/student-study-planner/](https://github.com/mdabidchy/student-study-planner/)
+**Live Website:** [https://mdmohshinabid.github.io/student-study-planner/](https://mdmohshinabid.github.io/student-study-planner/)
+**GitHub Repository:** [https://github.com/mdmohshinabid/student-study-planner/](https://github.com/mdmohshinabid/student-study-planner/)
 
 ---
 
@@ -206,7 +206,7 @@ It demonstrates my ability to combine HTML, CSS, and JavaScript to build an inte
 
 **Name:** Md Mohshin Abid
 
-**GitHub:** [https://github.com/mdabidchy](https://github.com/mdabidchy)
+**GitHub:** [https://github.com/mdmohshinabid](https://github.com/mdmohshinabid)
 
 **Project:** Student Study Planner
 
