@@ -6,9 +6,9 @@
 
 **Project Type:** Front-End Web Development
 
-**Live Demo:** https://mdabidchy.github.io/student-study-planner/
+**Live Demo:** https://mdmohshinabid.github.io/student-study-planner/
 
-**GitHub Repository:** https://github.com/mdabidchy/student-study-planner/
+**GitHub Repository:** https://github.com/mdmohshinabid/student-study-planner/
 
 ---
 
@@ -86,10 +86,10 @@ These are planned improvements, not existing features.
 ## 7. Project Links
 
 **Live Website:**  
-https://mdabidchy.github.io/student-study-planner/
+https://mdmohshinabid.github.io/student-study-planner/
 
 **GitHub Source Code:**  
-https://github.com/mdabidchy/student-study-planner/
+https://github.com/mdmohshinabid/student-study-planner/
 
 **Project Documentation:**  
 See `PROJECT_DOCUMENTATION.md` in this repository.
