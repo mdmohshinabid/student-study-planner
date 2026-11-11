@@ -56,7 +56,7 @@ This project helped me improve my problem-solving skills and understand how fron
 
 **Md Mohshin Abid**
 
-GitHub: [mdabidchy](https://github.com/mdabidchy)
+GitHub: [mdmohshinabid](https://github.com/mdmohshinabid)
 
 ---
 
