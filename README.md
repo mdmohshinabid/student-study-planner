@@ -2,7 +2,7 @@
 
 A responsive and user-friendly web application designed to help students organize their study tasks, manage deadlines, and track their study progress.
 
-🌐 **Live Demo:** https://mdabidchy.github.io/student-study-planner/
+🌐 **Live Demo:** https://mdmohshinabid.github.io/student-study-planner/
 
 ## ✨ Features
 
